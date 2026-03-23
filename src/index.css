@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    @page {
+      margin: 0;
+      size: A4 portrait;
+    }
+  }
+}
